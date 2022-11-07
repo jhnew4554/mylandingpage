@@ -6,8 +6,164 @@ body {
 
 .header {
     display: flex;
+    background-color: rgb(1, 44, 100);
+    padding: 30px 100px 30px 100px;
+    justify-content: space-between;
+}
+
+h1 {
+    color: white;
 }
 
 ul {
-    
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/*2nd box*/
+
+.one {
+    display: flex;
+    background-color: rgb(1, 44, 100);
+    padding: 30px 100px 30px 100px;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.wanone {
+    flex: 1;
+}
+
+.p1 {
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+.p2 {
+    font-size: 20px;
+    color: white;
+}
+
+.b1 {
+  color: white;
+  background-color: blue;  
+  border: none;
+  border-radius: 7px;
+  padding: 10px 25px 10px 25px;
+}
+.wantwo {
+    flex: 1;
+    background-color: gray;
+    text-align: center;
+    padding: 50px;
+}
+
+/*3rd box*/
+
+.two {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 150px 50px 150px;
+}
+
+.random {
+    flex: 1;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.toto {
+    display: flex;
+    gap: 50px;
+}
+
+.toto div {
+    min-height: 100px;
+}
+
+.toto p {
+    text-align: center;
+}
+.image {
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding: 50px;
+}
+
+/*4th box*/
+
+.three {
+    background-color: rgb(208, 205, 205);
+    padding: 50px 150px 50px 150px;
+}
+
+.three p {
+    font-size: 30px;
+}
+
+.secpara {
+    text-align: right;
+}
+
+/*5th b0x*/
+
+.four {
+    padding: 50px 100px;
+}
+
+.forborder {
+    border-radius: 10px;
+    background-color: blue;
+    display: flex;
+    margin: 20px;
+    padding: 25px;
+    justify-content: space-around;
+}
+
+.forpara {
+    color: white;
+    font-weight: 900;
+}
+
+.fortopara {
+    color: rgb(212, 212, 212);
+
+}
+
+.call p{
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    text-align: center;
+    padding: 5px 35px;
+    color: white;
+    background-color: blue;
+    border: solid 2px white;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: rgb(1, 44, 100);
+    padding: 50px 100px;
+}
+
+.footer div {
+    color: white;
+    text-align: center;
 }
